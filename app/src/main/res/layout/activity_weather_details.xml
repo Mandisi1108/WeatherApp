@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherDetails">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/tvIcon"
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/tvDegrees"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvIcon"
+        android:layout_marginStart="142dp" />
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="313dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp" />
+
+    <TextView
+        android:id="@+id/tvCloud"
+        android:layout_width="314dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp" />
+
+    <TextView
+        android:id="@+id/tvPressure"
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="314dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp" />
+
+    <TextView
+        android:id="@+id/tvSunrise"
+        android:layout_width="317dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp" />
+
+    <TextView
+        android:id="@+id/tvSunset"
+        android:layout_width="311dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp" />
+
+    <TextView
+        android:id="@+id/tvGeo"
+        android:layout_width="308dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="308dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginTop="195dp" />
+</RelativeLayout>
